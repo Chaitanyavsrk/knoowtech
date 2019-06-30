@@ -1,0 +1,578 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+     <link rel="shortcut icon" href="./images/kt.png" type="image/png" >
+     <link rel="apple-touch-icon" href="./images/kt.png" type="image/png" >
+     <link rel="icon" href="./images/kt.png" sizes="192*192">
+
+     <title>KnoowTech | Home</title>
+    <!--<!-- Required meta tags always come first -->-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+    <!--<meta http-equiv="x-ua-compatible" content="ie=edge">-->
+ 
+    
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+
+    <!-- Material Design Bootstrap -->
+    <link href="static/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<header class="header" id="home">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark deep-blue-gradient fixed-top scrolling-navbar z-depth-3 animated fadeInDown slow delay 2s">
+        <div class="container">
+            <a class="navbar-brand " href="#">
+                <img src="./images/kt.png" alt="" style="width:50px">
+                <!-- <img src="./images/kt_1.png" alt="" style="width: 150px"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                    aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link teal-danger" href="#home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link teal-light" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link teal-light" href="https://forms.gle/EYmLii6x8jz5PvJ9A" target="_blank">Campus Ambassador</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link teal-light" href="#about">About</a>
+                            </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link teal-light" href="#contact">Register</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link teal-light" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="container">
+        <div class="header__introduction">
+
+          <img src="./images/kt_1.png" alt="" style="width: 100%">
+          <div>
+              
+              <br>
+              <h3><span class="type blue-grey-text"></span></h3>  
+          </div>  
+           <br>
+            <div class="buttons">
+                <a href="" class="btn  peach-gradient wave-effect hoverable" id="an" data-toggle="modal" data-target="#modalContactForm"><span>Apply now</span></a>
+                <a href="#courses" class="btn btn-outline-info waves-effect wave-effect hoverable" id="na">courses</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="arrow bounce">
+        <a class="fa fa-arrow-down fa-3x teal-text z-depth-4 smooth-scroll" id="arrow" href="#courses"></a>
+    </div>
+
+    <canvas class="header__background"></canvas>
+
+    
+</header>
+
+<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Header-->
+      <div class="modal-header light-blue darken-3 white-text">
+        <h4 class="title"><i class="fas fa-pencil-alt"></i> Contact form</h4>
+        <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body mb-0">
+        <div class="md-form form-sm">
+          <i class="fas fa-envelope prefix active"></i>
+          <input type="text" id="form8" class="form-control">
+          <label for="form8" class="active">Your name</label>
+        </div>
+
+        <div class="md-form form-sm">
+          <i class="fas fa-lock prefix active"></i>
+          <input type="password" id="form9" class="form-control">
+          <label for="form9" class="active">Your email</label>
+        </div>
+
+        <div class="md-form form-sm">
+          <i class="fas fa-tag prefix"></i>
+          <input type="search" id="form-autocomplete-2" class="form-control mdb-autocomplete">
+          <button class="mdb-autocomplete-clear">
+            <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="https://www.w3.org/2000/svg">
+              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+              <path d="M0 0h24v24H0z" fill="none" />
+            </svg>
+          </button>
+          <label for="form-autocomplete-2" class="active">Subject</label>
+        </div>
+
+        <div class="md-form form-sm">
+          <i class="fas fa-pencil-alt prefix"></i>
+          <textarea type="text" id="form67" class="md-textarea mb-0"></textarea>
+          <label for="form67">Your message</label>
+        </div>
+
+        <div class="text-center mt-1-half">
+          <button class="btn btn-info mb-2 waves-effect waves-light">Send <i class="fas fa-send ml-1"></i></button>
+        </div>
+
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+
+
+    <main class="main">
+        <div class="container">
+            <section id="courses" class="courses">
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12">
+
+                        <!--Card-->
+                        <div class="card z-depth-3">
+
+                            <!--Card image-->
+                            <div class="view overlay zoom">
+                                <img src="./images/web2.png" class="img-fluid img-height auto"
+                                     alt="">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title"> Certified Digital Master</h4>
+                                <span class="badge badge-pill badge-danger">Recommended</span>
+                                <p class="card-text"> CDM is a combination of <span class="font-weight-bolder">Web Development</span>, <span class="font-weight-bolder">Digital Marketing</span> and <span class="font-weight-bolder">Graphic Designing</span>.
+                                    It's a 3 months long Project oriented programme with live projects at the end.</p>
+                                <a data-toggle="modal" data-target="#fullHeightModalLeft" class="btn btn-outline-info">Curriculum</a>
+                            </div>
+                            <!-- Full Height Modal Right -->
+                            <div class="modal fade " id="fullHeightModalLeft" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+
+                                <!-- Add class .modal-full-height and then add class .modal-right (or other classes from list above) to set a position to the modal -->
+                                <div class="modal-dialog " role="document" id="CDM">
+
+
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title w-100 text-danger" id="myModalLabel">Certified Digital Master Program</h4>
+                                        
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <section>
+                                                <br>
+                                                <p><strong style="color: brown">Duration:</strong>14 Weeks</p>
+                                                 <br>
+                                                 <h6><strong style="color: blue">Week 0-5:</strong></h6> 
+                                                 <p>How Internet Works, Classification of IP Addresses, Web Servers, 
+                                                     Setting up Development Environment, HTML5/CSS3, 
+                                                     Git & Git Hub, Bootstrap 4, Advanced CSS & SAAS, JavaScript.</p>
+                                                     <br>
+                                                     <h6><strong style="color: blue">Week 6-8:</strong></h6> 
+                                                     <p>Search Engine Optimisation (SEO), EcmaScript 6 (ES6),JavaScript for React, 
+                                                         Intro to Graphic Designing, 
+                                                         PhotoShop basics.</p>
+                                                         <br>
+                                                     <h6><strong style="color: blue">Week 9-12:</strong></h6> 
+                                                         <p>UI Designing with Adobe Photoshop & React.js Project based module</p>
+                                                        <br>
+                                                        <h6><strong style="color: blue">Week 13 & 14:</strong></h6> 
+                                                        <p>Final Project, Interview Preparation, Resume Building</p>
+                                            </section>            
+                                               <br> 
+                                           <section>    
+                                            <ul>
+                                                <li>Building your own web products & personal portfolio</li>
+                                                <li>Deploying applications on AWS, Google Cloud, Hostlify etc</li>
+                                                <li>Learning through internal hackathons & Tech-Talks</li>
+                                                <li>Algorithm Challenges for Cracking Interviews</li>
+                                            </ul>
+                                        </section> 
+                                        </div>
+                                        <div class="modal-footer justify-content-center">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <!--/.Card-->
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card z-depth-3">
+                            <div class="view overlay zoom">
+                                <img src="./images/Digital-Marketing.jpg" class="img-fluid"
+                                     alt="">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Full Stack Digital Marketing</h4>
+                                <span class="badge badge-pill badge-warning">Coming Soon</span>
+                                <p class="card-text"> FSDM is a 2 months long programme. In FSDM program we will teach all the 7 modules of Digital Marketing.
+                                    Be a Digital Nomad in 2 months</p>
+                                <button type="button" class="btn btn-outline-info" disabled>Curriculum</button>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card z-depth-3">
+                            <div class="view overlay zoom">
+                                <img src="./images/react.jpg" class="img-fluid"
+                                     alt="">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">React.js</h4>
+                                <span class="badge badge-pill badge-warning">Coming Soon</span>
+                                <p class="card-text"> React.js is the most popular JavaScript framework build by facebook.Learn React.js
+                                    and be an highly earning professional. Hottest Job in the software community right now.</p>
+                                <button type="button" class="btn btn-outline-info" disabled>Curriculum</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Grid column-->
+        </div>
+        </section>
+        <!--Main container-->
+        <!--About-->
+        <section id="about">
+            <div class="container-fluid">
+                <div class="main_about">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="view overlay">
+                                <img src="./images/steve_about2.png" class="img-fluid " alt="Best Coding BootCamp in Andhra Pradesh">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 about">
+                            <h2 class="text-center cyan-text"> About us</h2>
+                            <hr>
+                            <p> They say, <span class="red-text">'Good things come to those who wait'.</span></p>
+                            <p>We slightly differ with that.</p>
+                            <p> We Say,<span class="cyan-text"> 'Good things come to those who upgrade themselves constantly and grab the opportunity in hand'</span>.</p>
+                            <p> As we all know, Change is the only constant in this world. Especially the present era,popularly known as Industry 4.O requires many young and bright minds to keep up with the pace.
+                                Knoow.Tech is india's first BootCamp programme in rural india.</p>
+                            <p>
+                                Specializing in today’s most in-demand skills. Know.Tech is the leading source for training and career transitions, we foster a flourishing community of professionals pursuing careers they love.
+                            </p>
+
+                            <a href="" class="btn  btn-outline-danger wave-effect float-center " id="rg">Register</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<br>
+        <br>
+        <br>
+        <!-- Section: Features v.1 -->
+        <section class="text-center my-5 service" id="services">
+         <div class="container-fluid">
+            <!-- Section heading -->
+            <h2 class="h1-responsive font-weight-bold teal-text">Services</h2>
+            <!-- Section description -->
+             <hr z-depth-5>
+            <p class="lead dark-text w-responsive mx-auto mb-4">WE OFFER DIGITAL SOLUTIONS</p>
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4">
+
+                    <i class="fa fa-code fa-3x red-text"></i>
+                    <h5 class="font-weight-bold  my-4">Web Development</h5>
+                    <p class="dark-text mb-md-0 mb-5">We create pixel perfect responsive websites. We make cool looking modern sites that suit best for your amazing company or startup.
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4">
+
+                    <i class="fa fa-pie-chart fa-3x cyan-text"></i>
+                    <h5 class="font-weight-bold  font-family-sans-serif  my-4">Digital Marketing</h5>
+                    <p class="dark-text mb-md-0 mb-0">We make your brand get more exposure through online marketing. We offer Search Engine Optimization,Social Media Marketing, Email Marketing, SEM etc...
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+<br>
+                <!-- Grid column -->
+                <div class="col-md-4">
+
+                    <i class="fa fa-paint-brush fa-3x orange-text"></i>
+                    <h5 class="font-weight-bold font-family-sans-serif my-4">Graphic Design</h5>
+                    <p class="dark-text mb-0">We make eye candy graphics for your brands. Our graphic design offers include Logo and Branding, Print Design,
+                        Business Card design,Web Design etc...
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+         </div>
+        </section>
+        <!-- Section: Features v.1 -->
+        <br>
+        <!-- Section: Contact v.1 -->
+        <section class="my-5" id="contact">
+          <div class="container">
+            <!-- Section heading -->
+            <h2 class="h1-responsive font-weight-bold text-center my-5 text-primary">Contact us <hr></h2>
+              <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-lg-5 mb-lg-0 mb-4">
+
+                    <!-- Form with header -->
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Header -->
+                            <div class="form-header blue-gradient accent-1">
+                                <h3 class="mt-2"><i class="fa fa-envelope"></i> Write to us:</h3>
+                            </div>
+                            <!-- Body -->
+                            <div class="md-form">
+                                <i class="fa fa-user prefix grey-text"></i>
+                                <input type="text" id="form-name" class="form-control">
+                                <label for="form-name">Your name</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix grey-text"></i>
+                                <input type="text" id="form-email" class="form-control">
+                                <label for="form-email">Your email</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fa fa-tag prefix grey-text"></i>
+                                <input type="text" id="form-Subject" class="form-control">
+                                <label for="form-Subject">Subject</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fa fa-pencil-alt prefix grey-text"></i>
+                                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                                <label for="form-text">Send message</label>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn blue-gradient">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Form with header -->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-lg-7">
+
+                    <!--Google map-->
+                    <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122110.44957967366!2d82.17719167512479!3d16.97693338288157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3827ddaf59b4f7%3A0x92f8ddb9c89a4803!2sKakinada%2C+Andhra+Pradesh!5e0!3m2!1sen!2sin!4v1559690313926!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <!-- Buttons-->
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <a class="btn-floating aqua-gradient accent-1">
+                                <i class="fa fa-map-marker"></i>
+                            </a>
+                            <p>Kakinada,
+                                <br>AndhraPradesh</p>
+                            <p class="mb-md-0">INDIA</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn-floating purple-gradient accent-1">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                            <p>+ 91 98 567 11 567</p>
+                            <p>+ 91 98 567 22 567</p>
+                            <p class="mb-md-0">Mon - Sun, 8:00-22:00</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn-floating peach-gradient accent-1">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                            <p class="mb-0">hello@knoow.tech</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Contact v.1 -->
+
+</main>
+
+<br>
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                    <i class="fa fa-facebook-f"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                    <i class="fa fa-twitter"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                    <i class="fa fa-linkedin"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-pin mx-1">
+                    <i class="fa fa-instagram"> </i>
+                </a>
+            </li>
+        </ul>
+        <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> Knoow.Tech</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+  <script src="typed.js"></script>
+  <script>
+      var typed = new Typed(".type", {
+  strings: ["LEARN", "CREATE", "LAUNCH"],
+  typeSpeed: 40,
+  backSpeed: 40,
+  cursorChar: '_',
+  loop: true // Default value
+});
+  </script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5cf168b3b534676f32acce4e/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- Tooltips -->
+    <!-- <script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/popper.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <!-- MDB core JavaScript -->
+    <!-- <script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/mdb.min.js"></script> -->
+    <script type="text/javascript" src="static/js/mdb.min.js"></script>
+<script src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>
+<script>
+window.onload = function() {
+    Particles.init({
+        selector: '.header__background',
+        color: '#2E2D3E',
+        maxParticles: 130,
+        connectParticles: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                options: {
+                    maxParticles: 80
+                }
+            }, {
+                breakpoint: 375,
+                options: {
+                    maxParticles: 50
+                }
+            }
+        ]
+    });
+};
+</script>
+</body>
+
+</html>
