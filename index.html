@@ -117,44 +117,36 @@
       <!--Body-->
       <div class="modal-body mb-0">
        <form name="apply" method="POST" data-netlify="true"> 
-           
-            <p>
-                    <label>Your Name: <input type="text" name="name" /></label>   
-                  </p>
-                  <p>
-                    <label>Your Email: <input type="email" name="email" /></label>
-                  </p>
-                  <p>
-                    <label>Your Role: <select name="role[]" multiple>
-                      <option value="leader">Leader</option>
-                      <option value="follower">Follower</option>
-                    </select></label>
-                  </p>
-                  <p>
-                    <label>Message: <textarea name="message"></textarea></label>
-                  </p>
-                  <p>
-                    <button type="submit">Send</button>
-                  </p>
 
-
-
-
-
-
-        <!-- <div class="md-form form-sm">
+        <div class="md-form form-sm">
           <i class="fas fa-envelope prefix active"></i>
-          <input type="text" id="form8" class="form-control">
-          <label for="form8" class="active">Your name</label>
+          <input type="text" id="form8" class="form-control" name="name">
+          <label for="form8" class="active">Full Name</label>
         </div>
 
         <div class="md-form form-sm">
           <i class="fas fa-lock prefix active"></i>
-          <input type="password" id="form9" class="form-control">
-          <label for="form9" class="active">Your email</label>
+          <input type="email" id="form9" class="form-control" name="email">
+          <label for="form9" class="active">Your Email</label>
         </div>
-
         <div class="md-form form-sm">
+                <i class="fas fa-lock prefix active"></i>
+                <input type="tel" id="form10" class="form-control" name="Phone">
+                <label for="form9" class="active">Phone Number</label>
+              </div>
+
+        <select class="mdb-select colorful-select dropdown-primary md-form" name="Qualification"  multiple searchable="Search here..">
+                <option value="" disabled selected>What is your highest educational qualification?</option>
+                <option value="1">College Drop-Out</option>
+                <option value="2">Graduate</option>
+                <option value="3">Post-Graduate</option>
+                <option value="4">Vocational</option>
+                <option value="5">Diploma</option>
+              </select>
+              <label class="mdb-main-label">Label example</label>
+              <button class="btn-save btn btn-primary btn-sm">Save</button>
+
+        <!-- <div class="md-form form-sm">
           <i class="fas fa-tag prefix"></i>
           <input type="search" id="form-autocomplete-2" class="form-control mdb-autocomplete">
           <button class="mdb-autocomplete-clear">
@@ -164,17 +156,30 @@
             </svg>
           </button>
           <label for="form-autocomplete-2" class="active">Subject</label>
-        </div>
+        </div> -->
 
         <div class="md-form form-sm">
           <i class="fas fa-pencil-alt prefix"></i>
-          <textarea type="text" id="form67" class="md-textarea mb-0"></textarea>
-          <label for="form67">Your message</label>
-        </div> -->
+          <textarea type="text" id="form67" class="md-textarea mb-0" name="Pass/drop"></textarea>
+          <label for="form67">What is your pass/drop out year?</label>
+        </div>
 
-        <!-- <div class="text-center mt-1-half">
-          <button class="btn btn-info mb-2 waves-effect waves-light">Send <i class="fas fa-send ml-1"></i></button>
-        </div> -->
+        <div class="md-form form-sm">
+                <i class="fas fa-pencil-alt prefix"></i>
+                <textarea type="text" id="form67" class="md-textarea mb-0" name="qualification"></textarea>
+                <label for="form67">Your Current address</label>
+              </div>
+
+              <div class="md-form form-sm">
+                    <i class="fas fa-pencil-alt prefix"></i>
+                    <textarea type="text" id="form67" class="md-textarea mb-0" name="qualification"></textarea>
+                    <label for="form67">Anything you want to ask?</label>
+                  </div>
+
+
+        <div class="text-center mt-1-half">
+          <button class="btn btn-info mb-2 waves-effect waves-light" type="submit">Send <i class="fas fa-send ml-1"></i></button>
+        </div>
       </form>
       </div>
     </div>
