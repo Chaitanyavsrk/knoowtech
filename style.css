@@ -79,9 +79,9 @@ background-image: linear-gradient(315deg, #130f40 0%, #000000 0%);
     color: #FFFFFF;
 }
 
-.navbar:not(.top-nav-collapse) {
+/* .navbar:not(.top-nav-collapse) {
     background: transparent !important;
-}
+} */
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
@@ -186,7 +186,7 @@ background-image: linear-gradient(315deg, #130f40 0%, #000000 0%);
 }
 
 .main_about .row{
-    padding-top: 7%;
+    padding-top: 10%;
     padding-bottom: 5%;
     /*background-color: whitesmoke;*/
     /*background-color: #485461;*/
@@ -249,9 +249,10 @@ background-image: linear-gradient(315deg, #130f40 0%, #000000 0%);
     }
 }
 
+
 #services p{
     color: black;
-    font-family: Roboto;
+    font-family: sans-seri;
 }
 
 #services h5{
@@ -265,6 +266,7 @@ background-image: linear-gradient(315deg, #130f40 0%, #000000 0%);
 }
 #services .container-fluid{
     height: 100%;
+    padding-top: 7%;
 
 }
 
