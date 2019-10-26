@@ -25,12 +25,12 @@
         <i class="fa fa-home"> <p>Home</p></i>
     </a>     
     <div class="container">
-            <h1 class="" style="font-size:40px; text-transform: initial ">Masters Program in Full Stack Development</h1>
+            <h1 class="" style="font-size:40px; text-transform: initial ">Full Stack Software Development</h1>
             <h2 style="font-size:25px;"> Learn to Create & Innovate</h2>
             <hr class="my-4">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <h4 class="course-item"><i class="fa fa-calendar-o"></i> 24 Weeks</h4>
+                    <h4 class="course-item"><i class="fa fa-calendar-o"></i> 30 Weeks</h4>
                     <h4 class="course-item"><i class="fa fa-code"></i> 1000+ hrs Coding</h4>
                     <h4 class="course-item"><i class="fa fa-comments"></i>150+ hrs Soft Skills</h4>
                     <h4 class="course-item"><i class="fa fa-laptop"></i> 100+ hrs DS & Algo </h4>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-12 col-md-4 p-3 text-center">
                     <h5 style="font-weight: bold " class="text-dark" >Duration</h5>
-                    <h3>12 Months</h3>
+                    <h3>30 Weeks</h3>
                 </div>
                 <div class="col-12 col-md-4 p-3 text-center">
                     <h5 style="font-weight: bold " class="text-dark">Start Date</h5>
@@ -68,11 +68,119 @@
             </div>
             <hr class="my-4">
             <div class="text-center">
-                <a class="btn btn-outline-light btn-lg rounded-pill px-5 py-2" href="" role="button" style="border: 2px solid white;">Apply Now</a>
+                <a class="btn btn-outline-light btn-lg rounded-pill px-5 py-2" href="" role="button" style="border: 2px solid white;" data-toggle="modal" data-target="#modalContactForm">Apply Now</a>
             </div>
             <hr class="my-4">
         </div>
-    </div>        
+    </div>  
+    <!-- Apply Now -->
+
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog cascading-modal" role="document">
+      <!--Content-->
+      <div class="modal-content">
+  
+        <!--Header-->
+        <div class="modal-header light-blue darken-3 white-text">
+          <h4 class="title"><i class="fas fa-pencil-alt"></i>Apply Now</h4>
+          <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <!--Body-->
+        <div class="modal-body mb-0">
+         <form name="apply" method="POST" data-netlify="true"> 
+  
+          <div class="md-form form-sm">
+            <i class="fa fa-user-o prefix active"></i>
+            <input type="text" id="form8" class="form-control" name="name">
+            <label for="form8" class="active">Full Name</label>
+          </div>
+  
+          <div class="md-form form-sm">
+            <i class="fa fa-envelope prefix active"></i>
+            <input type="email" id="form9" class="form-control" name="email">
+            <label for="form9" class="active">Your Email</label>
+          </div>
+          <div class="md-form form-sm">
+                  <i class="fa fa-mobile prefix active"></i>
+                  <input type="tel" id="form10" class="form-control" name="Phone">
+                  <label for="form9" class="active">Phone Number</label>
+                </div>
+   
+   <!-- Material checked -->
+   <div>
+   <i class="fa fa-suitcase prefix active"></i>
+   <label for="form9" class="active" >What is your highest educational qualification?</label>
+  
+   <div class="form-check mb-3">
+          <input class="form-check-input" type="radio" id="radio1" name="materialExampleRadios" value="School / College Drop-Out">
+          <label class="form-check-label" for="radio1">School / College Drop-Out</label>
+      </div>
+      
+      <div class="form-check mb-3">
+          <input class="form-check-input" type="radio" id="radio2" name="materialExampleRadios" value="Graduate">
+          <label class="form-check-label" for="radio2">Graduate</label>
+      </div>
+      <div class="form-check mb-3">
+              <input class="form-check-input" type="radio" id="radio3" name="materialExampleRadios" value="Post-Graduate">
+              <label class="form-check-label" for="radio3">Post-Graduate</label>
+          </div>
+          
+          <div class="form-check mb-3">
+              <input class="form-check-input" type="radio" id="radio4" name="materialExampleRadios" value="Diploma">
+              <label class="form-check-label" for="radio4">Diploma</label>
+          </div>
+   
+   </div>
+          
+       <div class="md-form form-sm">
+            <i class="fa fa-graduation-cap prefix active"></i>
+            <textarea type="text" id="form67" class="md-textarea mb-0" name="Pass/drop"></textarea>
+            <label for="form67">What is your passed/drop out year?</label>
+          </div>
+           <div>
+              <i class="fa fa-suitcase prefix active"></i>
+              <label for="form10" class="active" >Which Course you want to apply?</label>
+          <div class="form-check mb-3">
+              <input class="form-check-input" type="radio" id="radio5" name="cmethod" value="FullWEb">
+              <label class="form-check-label" for="radio5">Full Stack Software Development</label>
+          </div>
+          
+          <div class="form-check mb-3">
+              <input class="form-check-input" type="radio" id="radio6" name="cmethod" value="DM">
+              <label class="form-check-label" for="radio6">Digital Marketing</label>
+          </div>
+       </div>  
+  
+          <div class="md-form form-sm">
+                  <i class="fa fa-map-marker prefix active"></i>
+                  <textarea type="text" id="form7" class="md-textarea mb-0" name="qualification"></textarea>
+                  <label for="form7">Your Current Location</label>
+                </div>
+  
+                <div class="md-form form-sm">
+                      <i class="fa fa-question-circle-o prefix active"></i>
+                      <textarea type="text" id="form6" class="md-textarea mb-0" name="ask"></textarea>
+                      <label for="form6">Anything you want to ask?</label>
+                    </div>
+  
+          <div class="text-center mt-1-half">
+            <button class="btn btn-info mb-2 waves-effect waves-light" type="submit">Apply <i class="fa fa-paper-plane ml-1"></i></button>
+          </div>
+        </form>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+
+
+    <!-- Apply Now End -->
+    
+
+
     </header>
    
     <section>
@@ -234,7 +342,7 @@
                         <div class="col-sm-4">
                                 <div class="m-3">
                                         <h3 class="text-danger" style="font-weight: bold; color: brown">Planning to change your life?</h3>
-                                        <div><a class="btn btn-outline-primary btn-rounded waves-effect px-5 py-2 " href="" type="button">Apply Now</a></div>
+                                        <div><a class="btn btn-outline-primary btn-rounded waves-effect px-5 py-2 " href="" type="button" data-toggle="modal" data-target="#modalContactForm">Apply Now</a></div>
                                     </div>
                               </div>
                 </div>
@@ -250,7 +358,7 @@
         <div class="row text-center">
       
           <!-- Grid column -->
-          <div class="col-md-4 mb-md-0 mb-5">
+          <div class="col-md-6 mb-md-0 mb-5">
             <div class="avatar mx-auto">
               <img src="images/kamal.jpg" class="rounded z-depth-1-half" alt="Sample avatar">
             </div>
@@ -261,7 +369,7 @@
           <!-- Grid column -->
       
           <!-- Grid column -->
-          <div class="col-md-4 mb-md-0 mb-5">
+          <div class="col-md-6 mb-md-0 mb-5">
             <div class="avatar mx-auto">
               <img src="images/bhasker.jpg" class="rounded z-depth-1-half" alt="Sample avatar">
             </div>
@@ -274,25 +382,14 @@
           <!-- Grid column -->
       
           <!-- Grid column -->
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <div class="avatar mx-auto">
               <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded z-depth-1-half" alt="Sample avatar">
             </div>
             <h4 class="font-weight-bold dark-grey-text my-4">Sarah Melyah</h4>
             <h6 class="text-uppercase grey-text mb-3"><strong>Web Developer</strong></h6>
-            <!--Linkedin -->
-            <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-li">
-              <i class="fa fa-linkedin "></i>
-            </a>
-            <!-- Twitter -->
-            <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-tw">
-              <i class="fa fa-twitter "></i>
-            </a>
-            <!--Pinterest -->
-            <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-pin">
-              <i class="fa fa-pinterest "></i>
-            </a>
-          </div>
+            
+          </div> -->
           <!-- Grid column -->
       
         </div>
